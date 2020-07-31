@@ -27,7 +27,7 @@ In our research, we evaluate variations of six index models considering sub-grap
 
 
 
-## [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](/incremental)
+## [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](/fluid/incremental)
 Existing graph summarization algorithms are tailored to specific graph summary models, only support one-time batch computation, are designed and implemented for a specific task, or evaluated using static graphs. 
 Our novel, incremental, parallel algorithm addresses all these shortcomings. 
 Our algorithm solves the set union problem following the signal and collect programming model.
