@@ -21,13 +21,13 @@ However, we redesigned the approach in a way that allows to abstract from the st
 
 The figure below outlines the basic concept of the FLUID approach. All modules, e.g., the schema computation, can be changed and implemented differently.
 
-![framework-architecture](documents/images/fluid-framework-concept.png)
+![framework-architecture](assets/images/fluid-framework-concept.png)
 In our research, we evaluate variations of six index models considering sub-graphs of size 0, 1, and 2 hops on two large, real-world datasets [DEXA].
 
 
 
 
-## Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs
+## [Incremental and Parallel Computation of Structural Graph Summaries for Evolving Graphs](/incremental)
 Existing graph summarization algorithms are tailored to specific graph summary models, only support one-time batch computation, are designed and implemented for a specific task, or evaluated using static graphs. 
 Our novel, incremental, parallel algorithm addresses all these shortcomings. 
 Our algorithm solves the set union problem following the signal and collect programming model.
